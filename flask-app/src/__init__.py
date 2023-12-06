@@ -14,9 +14,9 @@ def create_app():
     # extensions or your application
     app.config['SECRET_KEY'] = 'someCrazyS3cR3T!Key.!'
 
-    # these are for the DB object to be able to connect to MySQL. 
+    # these are for the DB object to be able to connect to MySQL. open(/secrets/db_root_password.txt).readline().split()
     app.config['MYSQL_DATABASE_USER'] = 'root'
-    app.config['MYSQL_DATABASE_PASSWORD'] = open('/secrets/db_root_password.txt').readline().split()
+    app.config['MYSQL_DATABASE_PASSWORD'] = 'abc'
     app.config['MYSQL_DATABASE_HOST'] = 'db'
     app.config['MYSQL_DATABASE_PORT'] = 3306
     app.config['MYSQL_DATABASE_DB'] = 'northwind'  # Change this to your DB name

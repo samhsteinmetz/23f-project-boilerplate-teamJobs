@@ -125,7 +125,8 @@ def add_new_product():
     query += category + '", '
     query += str(price) + ')'
     current_app.logger.info(query)
-
+  
+  
     # executing and committing the insert statement 
     cursor = db.get_db().cursor()
     cursor.execute(query)
