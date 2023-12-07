@@ -68,7 +68,7 @@ CREATE TABLE job (
     CompanyID INT,
     Title varchar(255),
     Description TEXT,
-    Salary INT,
+    Salary DECIMAL(10,5),
     LocationTownCity varchar(255),
     LocationState varchar(255),
     ApplicationDeadline DATE,
