@@ -1,3 +1,4 @@
+use jobboard;
 insert into job (JobID, CompanyID, Title, Description, Salary, LocationTownCity, LocationState, ApplicationDeadline) values (1, '20', 'Cost Accountant', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '$529049.65', 'Lianghe', null, '4/26/2024');
 insert into job (JobID, CompanyID, Title, Description, Salary, LocationTownCity, LocationState, ApplicationDeadline) values (2, '32', 'Junior Executive', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', '$536404.35', 'Carletonville', null, '10/4/2023');
 insert into job (JobID, CompanyID, Title, Description, Salary, LocationTownCity, LocationState, ApplicationDeadline) values (3, '22', 'Quality Control Specialist', 'Aliquam erat volutpat. In congue.', '$300424.19', '‘Anātā', null, '4/18/2024');

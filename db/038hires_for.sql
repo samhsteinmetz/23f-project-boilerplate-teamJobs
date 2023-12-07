@@ -1,3 +1,4 @@
+use jobboard;
 insert into hires_for (HiringManagerID, JobID, StartDate) values ('45', '36', '8/17/1975');
 insert into hires_for (HiringManagerID, JobID, StartDate) values ('37', '29', '3/22/2020');
 insert into hires_for (HiringManagerID, JobID, StartDate) values ('30', '48', '5/13/1987');

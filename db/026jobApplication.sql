@@ -1,3 +1,4 @@
+use jobboard;
 insert into jobApplication (jobApplicationID, ApplicantID, JobID, ApplicationDate) values (1, '26', '40', 'vblaxill0@addthis.com');
 insert into jobApplication (jobApplicationID, ApplicantID, JobID, ApplicationDate) values (2, '13', '46', 'ngleadhall1@mapquest.com');
 insert into jobApplication (jobApplicationID, ApplicantID, JobID, ApplicationDate) values (3, '9', '14', 'rhofton2@google.de');

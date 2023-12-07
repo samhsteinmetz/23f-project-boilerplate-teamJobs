@@ -1,3 +1,4 @@
+use jobboard;
 insert into job_skill_test (JobID, SkillTestID) values ('20', '32');
 insert into job_skill_test (JobID, SkillTestID) values ('48', '15');
 insert into job_skill_test (JobID, SkillTestID) values ('13', '3');

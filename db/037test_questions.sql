@@ -1,3 +1,4 @@
+use jobboard;
 insert into test_questions (QuestionID, SkillTestID, QuestionText) values (1, '25', 'nulla nunc purus phasellus in felis donec?');
 insert into test_questions (QuestionID, SkillTestID, QuestionText) values (2, '21', 'posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum?');
 insert into test_questions (QuestionID, SkillTestID, QuestionText) values (3, '37', 'ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit?');

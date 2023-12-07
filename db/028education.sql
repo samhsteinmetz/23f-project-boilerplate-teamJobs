@@ -1,3 +1,4 @@
+use jobboard;
 insert into education (EducationID, ApplicantID, Name, GradDate, clubs, courses, GPA) values (1, '48', 'cras non velit nec', '6/15/1961', 'vitae ipsum aliquam non mauris morbi non', 'in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut', 0.47);
 insert into education (EducationID, ApplicantID, Name, GradDate, clubs, courses, GPA) values (2, '1', 'nulla neque', '10/8/2020', 'vestibulum', 'ultrices posuere cubilia curae duis faucibus accumsan', 0.5);
 insert into education (EducationID, ApplicantID, Name, GradDate, clubs, courses, GPA) values (3, '8', 'etiam', '12/18/2021', 'primis in', 'maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque', 2.67);

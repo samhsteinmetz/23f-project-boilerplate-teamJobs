@@ -1,3 +1,4 @@
+use jobboard;
 insert into wants (WantID, ApplicantID, WantDescription) values (1, '27', 'nam congue risus semper porta volutpat quam');
 insert into wants (WantID, ApplicantID, WantDescription) values (2, '4', 'eu pede');
 insert into wants (WantID, ApplicantID, WantDescription) values (3, '32', 'lacinia');

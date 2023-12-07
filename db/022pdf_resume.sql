@@ -1,3 +1,4 @@
+use jobboard;
 insert into pdf_resume (pdfID, ApplicantID, PdfFilename) values (1, '21', 'amet.pdf');
 insert into pdf_resume (pdfID, ApplicantID, PdfFilename) values (2, '2', 'proin.pdf');
 insert into pdf_resume (pdfID, ApplicantID, PdfFilename) values (3, '19', 'maecenas.pdf');

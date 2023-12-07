@@ -1,3 +1,4 @@
+use jobboard;
 insert into company (CompanyID, Name, about) values (1, 'Divanoodle', 'Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.');
 insert into company (CompanyID, Name, about) values (2, 'Browsetype', 'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.');
 insert into company (CompanyID, Name, about) values (3, 'Mynte', 'Etiam vel augue. Vestibulum rutrum rutrum neque.');

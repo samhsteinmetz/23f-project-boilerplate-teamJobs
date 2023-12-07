@@ -1,3 +1,5 @@
+use jobboard;
+
 insert into applicant (ID, FirstName, LastName, DOB, Email, PasswordHASH, Phone, StreetAddress, City, State, Zip) values (1, 'Jakob', 'Moore', '6/1/1978', 'jmoore0@netscape.com', '$2a$04$oP1GenruvjoiwPNmyTTiHu5aEDM2Rjdfbb1RABJP04IAG87TXQjJ2', '602-285-2672', '802 Blackbird Circle', 'Phoenix', 'Arizona', '85077');
 insert into applicant (ID, FirstName, LastName, DOB, Email, PasswordHASH, Phone, StreetAddress, City, State, Zip) values (2, 'Lynnett', 'Sloss', '11/23/2007', 'lsloss1@wikimedia.org', '$2a$04$pXKFwGQze31UisEbwqI9BO4gQakxj3yqoJQUy5NVlV94rn29R0Ijy', '515-750-1658', '19023 Knutson Park', 'Des Moines', 'Iowa', '50393');
 insert into applicant (ID, FirstName, LastName, DOB, Email, PasswordHASH, Phone, StreetAddress, City, State, Zip) values (3, 'Vinni', 'Kaye', '7/10/1960', 'vkaye2@hatena.ne.jp', '$2a$04$YfGKvQGoe/7rTROUwqwPquFcIa4HcFxtQ1FM0eanhtEFj6PjImd4u', '415-123-5783', '326 Fairfield Plaza', 'San Francisco', 'California', '94164');

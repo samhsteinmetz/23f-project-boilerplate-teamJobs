@@ -1,3 +1,4 @@
+use jobboard;
 insert into applicantSkillTests (ApplicantID, SkillTestID, dateTaken, Score) values ('33', '8', '2/1/2013', 44);
 insert into applicantSkillTests (ApplicantID, SkillTestID, dateTaken, Score) values ('29', '31', '4/2/2020', 9);
 insert into applicantSkillTests (ApplicantID, SkillTestID, dateTaken, Score) values ('43', '44', '3/20/2002', 5);

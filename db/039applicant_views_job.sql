@@ -1,3 +1,4 @@
+use jobboard;
 insert into applicant_views_job (ApplicantID, JobID, ViewDate) values ('34', '14', '12/9/1960');
 insert into applicant_views_job (ApplicantID, JobID, ViewDate) values ('46', '4', '10/9/1985');
 insert into applicant_views_job (ApplicantID, JobID, ViewDate) values ('23', '1', '1/29/2003');

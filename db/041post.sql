@@ -1,3 +1,4 @@
+use jobboard;
 insert into post (PostID, CompanyID, Title, Description) values (1, '19', 'ut ultrices vel augue', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis.');
 insert into post (PostID, CompanyID, Title, Description) values (2, '47', 'enim in tempor turpis nec', 'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.');
 insert into post (PostID, CompanyID, Title, Description) values (3, '42', 'volutpat erat quisque erat', 'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.');

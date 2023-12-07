@@ -1,3 +1,4 @@
+use jobboard;
 insert into Work_Experience (experienceID, ApplicantID, title, StartDate, EndDate, Description, City, State) values (1, '23', 'eros viverra eget congue', '5/26/2006', '5/29/2005', 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 'Gizałki', null);
 insert into Work_Experience (experienceID, ApplicantID, title, StartDate, EndDate, Description, City, State) values (2, '34', 'at dolor quis odio consequat', '7/22/2021', '2/20/2008', 'Aliquam non mauris.', 'Mae Sot', null);
 insert into Work_Experience (experienceID, ApplicantID, title, StartDate, EndDate, Description, City, State) values (3, '11', 'vestibulum rutrum', '8/20/2015', '6/19/1986', 'Proin interdum mauris non ligula pellentesque ultrices.', 'Xue’an', null);

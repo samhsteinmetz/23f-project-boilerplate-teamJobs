@@ -1,3 +1,4 @@
+use jobboard;
 insert into applicant_skill (ApplicantID, SkillID, SkillLevel) values ('9', '4', 2);
 insert into applicant_skill (ApplicantID, SkillID, SkillLevel) values ('16', '1', 8);
 insert into applicant_skill (ApplicantID, SkillID, SkillLevel) values ('5', '9', 10);

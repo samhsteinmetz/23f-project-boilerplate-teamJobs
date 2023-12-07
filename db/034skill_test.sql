@@ -1,3 +1,4 @@
+use jobboard;
 insert into skill_test (SkillTestID, SKillID, Name) values (1, '31', 'integer ac leo');
 insert into skill_test (SkillTestID, SKillID, Name) values (2, '28', 'non velit nec nisi');
 insert into skill_test (SkillTestID, SKillID, Name) values (3, '30', 'aliquet maecenas leo');

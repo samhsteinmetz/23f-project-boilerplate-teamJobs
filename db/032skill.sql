@@ -1,3 +1,4 @@
+use jobboard;
 insert into skill (skillID, Name) values (1, 'TVC');
 insert into skill (skillID, Name) values (2, 'Drama');
 insert into skill (skillID, Name) values (3, 'PTLLS');

@@ -1,3 +1,6 @@
+use jobboard;
+
+
 insert into hiring_manager (EmployeeID, CompanyID, FirstName, LastName, Email, Phone, PasswordHASH) values (1, '10', 'Cyndie', 'Jordi', 'cjordi0@yale.edu', '164-446-6965', '$2a$04$PVj/DKz8R5v6dFUI9TIjxOgw1aTZU95aw2KAygEciqEPSYCgwpGyG');
 insert into hiring_manager (EmployeeID, CompanyID, FirstName, LastName, Email, Phone, PasswordHASH) values (2, '3', 'Noak', 'Vany', 'nvany1@shareasale.com', '861-735-6939', '$2a$04$DqnEgI8gymHX5n2Oa4xnnuSMBAAnbKQYhA8rRn2Fu/A0ORpnmlnjG');
 insert into hiring_manager (EmployeeID, CompanyID, FirstName, LastName, Email, Phone, PasswordHASH) values (3, '38', 'Lauri', 'Benadette', 'lbenadette2@webs.com', '119-794-7962', '$2a$04$egRwB9r2QySpH9yLAYMIA.FhqNu72pxa4FKdjSKFofRblCS9jnU3u');

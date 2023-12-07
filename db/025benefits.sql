@@ -1,3 +1,4 @@
+use jobboard;
 insert into benefits (BenefitID, JobID, BenefitDescription) values (1, '48', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.');
 insert into benefits (BenefitID, JobID, BenefitDescription) values (2, '49', 'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.');
 insert into benefits (BenefitID, JobID, BenefitDescription) values (3, '7', 'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.');

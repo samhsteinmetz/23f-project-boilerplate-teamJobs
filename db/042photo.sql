@@ -1,3 +1,4 @@
+use jobboard;
 insert into photo (PhotoID, PostID, ImageFilename) values (1, '9', 'diam.png');
 insert into photo (PhotoID, PostID, ImageFilename) values (2, '37', 'sed.png');
 insert into photo (PhotoID, PostID, ImageFilename) values (3, '40', 'congue.png');
