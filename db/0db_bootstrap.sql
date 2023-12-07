@@ -274,63 +274,64 @@ CREATE TABLE applicant_views_post (
 
 -- Add sample data. 
 
-INSERT INTO applicant (FirstName, LastName, DOB, Email, PasswordHASH, Phone, StreetAddress, City, State, Zip)
-VALUES ('John', 'Doe', '1990-01-01', 'johndoe@gmail.com', '124114', '1234567890', '123 Main St', 'Woburn', 'MA', '01224'),
-        ('Jane', 'Limmick', '1990-01-01', 'jane@gmail.com', '124114', '1234567890', '123 Main St', 'Bmore', 'MD', '1201');
-
-
-INSERT INTO wants (ApplicantID, WantDescription)
-VALUES (1, 'Flexible Hours'),
-         (1, 'Remote Work');
+-- INSERT INTO applicant (FirstName, LastName, DOB, Email, PasswordHASH, Phone, StreetAddress, City, State, Zip)
+-- VALUES ('John', 'Doe', '1990-01-01', 'johndoe@gmail.com', '124114', '1234567890', '123 Main St', 'Woburn', 'MA', '01224'),
+--         ('Jane', 'Limmick', '1990-01-01', 'jane@gmail.com', '124114', '1234567890', '123 Main St', 'Bmore', 'MD', '1201');
 
 
 
-INSERT INTO pdf_resume (ApplicantID, PdfFilename)
-VALUES (1, 'resume1.pdf'),
-    (2, 'resume2.pdf');
-
-
-INSERT INTO company (Name, about)
-VALUES ('Apple', 'An innovative technology company.'),
-   ('Google', 'A technology company specializing in search engines.');
+-- INSERT INTO wants (ApplicantID, WantDescription)
+-- VALUES (1, 'Flexible Hours'),
+--          (1, 'Remote Work');
 
 
 
-INSERT INTO job (CompanyID, Title, Description, Salary, LocationTownCity, LocationState, ApplicationDeadline)
-VALUES (1, 'Software Engineer', 'Develop and maintain software applications DATABASE ONLY.', 80040, 'texastown', 'texas', '2023-12-31'),
-(1, 'Software Engineer', 'Develop and maintain software applications Frontent ONLY.', 80050, 'texastown', 'texas', '2023-12-31');
+-- INSERT INTO pdf_resume (ApplicantID, PdfFilename)
+-- VALUES (1, 'resume1.pdf'),
+--     (2, 'resume2.pdf');
 
 
-INSERT INTO benefits (JobID, BenefitDescription)
-VALUES (1, 'Health insurance, Retirement plan'),
-(2, 'PTO, Retirement plan');
-
-
-INSERT INTO jobApplication (ApplicantID, JobID, ApplicationDate)
-VALUES (1, 1, '2023-01-01'),
-(2, 1, '2023-01-01');
-
-
-INSERT INTO hiring_manager (CompanyID, FirstName, LastName, Email, Phone, PasswordHASH)
-VALUES (1, 'Alice', 'Smith', 'alice.smith@apple.com', 9876543210, '1414'),
-(2, 'Bob', 'Jones', 'bobj@google.com', 9876543210, '1214');
-
-
-INSERT INTO education (ApplicantID, Name, GradDate, clubs, courses, GPA)
-VALUES (1, 'University of Example', '2022-05-15', 'Computer Club', 'Computer Science, Mathematics', 3.8);
-
-INSERT INTO Volunteer_Experience (ApplicantID, title, StartDate, EndDate, Description)
-VALUES (1, 'Community Volunteer', '2021-06-01', '2021-08-31', 'Participated in community clean-up initiatives.');
-
-
-INSERT INTO Work_Experience (ApplicantID, title, StartDate, EndDate, Description, City, State)
-VALUES (1, 'Junior Developer', '2020-01-01', '2021-01-01', 'Worked on various software development projects.', 'CityName', 'StateName');
+-- INSERT INTO company (Name, about)
+-- VALUES ('Apple', 'An innovative technology company.'),
+--    ('Google', 'A technology company specializing in search engines.');
 
 
 
-INSERT INTO applicant_views_post (ApplicantID, PostID, ViewDate)
-VALUES (1, 1, NOW()),
-(2, 1, NOW());
+-- INSERT INTO job (CompanyID, Title, Description, Salary, LocationTownCity, LocationState, ApplicationDeadline)
+-- VALUES (1, 'Software Engineer', 'Develop and maintain software applications DATABASE ONLY.', 80040, 'texastown', 'texas', '2023-12-31'),
+-- (1, 'Software Engineer', 'Develop and maintain software applications Frontent ONLY.', 80050, 'texastown', 'texas', '2023-12-31');
+
+
+-- INSERT INTO benefits (JobID, BenefitDescription)
+-- VALUES (1, 'Health insurance, Retirement plan'),
+-- (2, 'PTO, Retirement plan');
+
+
+-- INSERT INTO jobApplication (ApplicantID, JobID, ApplicationDate)
+-- VALUES (1, 1, '2023-01-01'),
+-- (2, 1, '2023-01-01');
+
+
+-- INSERT INTO hiring_manager (CompanyID, FirstName, LastName, Email, Phone, PasswordHASH)
+-- VALUES (1, 'Alice', 'Smith', 'alice.smith@apple.com', 9876543210, '1414'),
+-- (2, 'Bob', 'Jones', 'bobj@google.com', 9876543210, '1214');
+
+
+-- INSERT INTO education (ApplicantID, Name, GradDate, clubs, courses, GPA)
+-- VALUES (1, 'University of Example', '2022-05-15', 'Computer Club', 'Computer Science, Mathematics', 3.8);
+
+-- INSERT INTO Volunteer_Experience (ApplicantID, title, StartDate, EndDate, Description)
+-- VALUES (1, 'Community Volunteer', '2021-06-01', '2021-08-31', 'Participated in community clean-up initiatives.');
+
+
+-- INSERT INTO Work_Experience (ApplicantID, title, StartDate, EndDate, Description, City, State)
+-- VALUES (1, 'Junior Developer', '2020-01-01', '2021-01-01', 'Worked on various software development projects.', 'CityName', 'StateName');
+
+
+
+-- INSERT INTO applicant_views_post (ApplicantID, PostID, ViewDate)
+-- VALUES (1, 1, NOW()),
+-- (2, 1, NOW());
 
 
 
