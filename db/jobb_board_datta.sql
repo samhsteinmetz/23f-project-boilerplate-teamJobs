@@ -53,9 +53,9 @@ values (19, '26', 'donec diam neque vestibulum eget',
 insert into post (PostID, CompanyID, Title, Description)
 values (20, '1', 'adipiscing molestie', 'Integer non velit.');
 insert into post (PostID, CompanyID, Title, Description)
-values (21, '36', 'nunc rhoncus dui vel sem', 'Quisque id justo sit amet sapien dignissim vestibulum.');
+values (21, '14', 'nunc rhoncus dui vel sem', 'Quisque id justo sit amet sapien dignissim vestibulum.');
 insert into post (PostID, CompanyID, Title, Description)
-values (22, '43', 'pellentesque at nulla suspendisse',
+values (22, '14', 'pellentesque at nulla suspendisse',
         'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.');
 insert into post (PostID, CompanyID, Title, Description)
 values (23, '35', 'eu mi nulla',
@@ -113,25 +113,26 @@ insert into post (PostID, CompanyID, Title, Description)
 values (42, '38', 'lacus curabitur at',
         'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.');
 insert into post (PostID, CompanyID, Title, Description)
-values (43, '24', 'lobortis sapien sapien non mi',
+values (43, '3', 'lobortis sapien sapien non mi',
         'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.');
 insert into post (PostID, CompanyID, Title, Description)
-values (44, '12', 'parturient', 'Duis mattis egestas metus.');
+values (44, '3', 'parturient', 'Duis mattis egestas metus.');
 insert into post (PostID, CompanyID, Title, Description)
-values (45, '45', 'felis donec',
+values (45, '3', 'felis donec',
         'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.');
 insert into post (PostID, CompanyID, Title, Description)
-values (46, '15', 'imperdiet sapien', 'Sed vel enim sit amet nunc viverra dapibus.');
+values (46, '3', 'imperdiet sapien', 'Sed vel enim sit amet nunc viverra dapibus.');
 insert into post (PostID, CompanyID, Title, Description)
-values (47, '27', 'nec molestie sed justo', 'Quisque porta volutpat erat.');
+values (47, '3', 'nec molestie sed justo', 'Quisque porta volutpat erat.');
 insert into post (PostID, CompanyID, Title, Description)
 values (48, '3', 'potenti in eleifend quam', 'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.');
 insert into post (PostID, CompanyID, Title, Description)
-values (49, '4', 'felis eu sapien cursus vestibulum',
+values (49, '3', 'felis eu sapien cursus vestibulum',
         'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.');
 insert into post (PostID, CompanyID, Title, Description)
 values (50, '9', 'leo odio condimentum id',
         'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.');
+
 
 
 -- photo

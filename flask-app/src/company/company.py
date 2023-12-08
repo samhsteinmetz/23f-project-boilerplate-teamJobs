@@ -90,7 +90,7 @@ def get_company_job_detail (CompanyID, jobID):
 @company.route('/company/<CompanyID>/posts', methods=['GET'])
 def get_company_posts (CompanyID):
     cursor = db.get_db().cursor()
-    query = 'SELECT postID, title, description FROM post WHERE CompanyID = ' + str(CompanyID)
+    query = 'SELECT title, description FROM post WHERE CompanyID = ' + str(CompanyID)
     #current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -107,7 +107,7 @@ def get_company_posts (CompanyID):
 @company.route('/company/<CompanyID>/posts/<postID>', methods=['GET'])
 def get_company_post_detail (CompanyID, postID):
     cursor = db.get_db().cursor()
-    query = 'SELECT Title, Description, LocationTownCity, LocationTownState, ApplicationDeadline FROM posts WHERE CompanyID = ' + str(CompanyID) + ' AND postID = ' + str(postID)
+    query = 'SELECT Title, Description, LocationTownCity, LocationTownState, ApplicationDeadline FROM post WHERE CompanyID = ' + str(CompanyID) + ' AND postID = ' + str(postID)
     #current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -135,7 +135,19 @@ def update_company_detail (CompanyID):
 
 
 
-#update the given comapnyid the companys information
+#add a post to a company
+@company.route('/company/<CompanyID>/posts', methods=['POST'])
+def add_company_post (CompanyID):
+    cursor = db.get_db().cursor()
+    query = 'INSERT INTO post (CompanyID, Title, Description) VALUES (%s, %s, %s)'
+    #current_app.logger.info(query)
+
+    cursor.execute(query, (CompanyID, request.json['post_title'], request.json['post_description']))
+    db.get_db().commit()
+    return jsonify({"status":"ok"})
+
+
+
 
 
 

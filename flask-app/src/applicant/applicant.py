@@ -13,7 +13,7 @@ def get_applicant():
     cursor = db.get_db().cursor()
 
     # use cursor to query the database for a list of products
-    cursor.execute('SELECT ID, FirstName, LastName FROM applicant')
+    cursor.execute('SELECT FirstName, LastName, DOB FROM applicant')
 
     # grab the column headers from the returned data
     column_headers = [x[0] for x in cursor.description]

@@ -886,19 +886,19 @@ insert into hiring_manager (EmployeeID, CompanyID, FirstName, LastName, Email, P
 values (25, 2, 'Berky', 'Brockhurst', 'bbrockhursto@webeden.co.uk', '570-132-0778',
         '$2a$04$wiFLJfzxC2piJTfM2u/jVOgwy8j3hWV4dwPQvD68zKI1ARSOXVIh.');
 insert into hiring_manager (EmployeeID, CompanyID, FirstName, LastName, Email, Phone, PasswordHASH)
-values (26, 5, 'Denys', 'Doget', 'ddogetp@gizmodo.com', '218-632-6683',
+values (26, 2, 'Denys', 'Doget', 'ddogetp@gizmodo.com', '218-632-6683',
         '$2a$04$BujS7S.a7V3T3SKvrues0enMZTm5utyEG3xvrD4/s2VT2ki7iZF/C');
 insert into hiring_manager (EmployeeID, CompanyID, FirstName, LastName, Email, Phone, PasswordHASH)
 values (27, 13, 'Penny', 'Hansemann', 'phansemannq@dmoz.org', '525-934-3197',
         '$2a$04$4kgLzSSYdSlcQEIkCdaTcOE47GRAzURRzUshVVYatetglMBaAs0W.');
 insert into hiring_manager (EmployeeID, CompanyID, FirstName, LastName, Email, Phone, PasswordHASH)
-values (28, 8, 'Sunny', 'Dovinson', 'sdovinsonr@sourceforge.net', '289-797-1721',
+values (28, 2, 'Sunny', 'Dovinson', 'sdovinsonr@sourceforge.net', '289-797-1721',
         '$2a$04$1.rqLNrjV.RXp.XnN/3UhuMzgi29oHL2MEXmUYeMkSFIff/YdfPie');
 insert into hiring_manager (EmployeeID, CompanyID, FirstName, LastName, Email, Phone, PasswordHASH)
-values (29, 21, 'Briana', 'Fyall', 'bfyalls@dailymail.co.uk', '523-227-5915',
+values (29, 2, 'Briana', 'Fyall', 'bfyalls@dailymail.co.uk', '523-227-5915',
         '$2a$04$eczXgD/Q2OoUpHRGFDMNtuO.uT.wogD0hTbj2y.24Zbt6ufRiNmBO');
 insert into hiring_manager (EmployeeID, CompanyID, FirstName, LastName, Email, Phone, PasswordHASH)
-values (30, 44, 'Neysa', 'Peacock', 'npeacockt@reuters.com', '130-120-6492',
+values (30, 2, 'Neysa', 'Peacock', 'npeacockt@reuters.com', '130-120-6492',
         '$2a$04$UlJaTux3ocYxV83Cb4P96erNs0J/DtSrUps/yhXupj05eCcDlj2/u');
 insert into hiring_manager (EmployeeID, CompanyID, FirstName, LastName, Email, Phone, PasswordHASH)
 values (31, 47, 'Monro', 'Kield', 'mkieldu@bloomberg.com', '638-147-4829',
