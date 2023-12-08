@@ -37,6 +37,8 @@ def create_app():
     from src.products.products  import products
     from src.company.company import company
     from src.hiring_manager.hiring_manager import hiring_manager
+    from src.applicant.applicant import applicant
+    
    
 
     # Register the routes from each Blueprint with the app object
@@ -45,6 +47,7 @@ def create_app():
     app.register_blueprint(products,    url_prefix='/p')
     app.register_blueprint(company,     url_prefix='/cp')
     app.register_blueprint(hiring_manager,     url_prefix='/hm')
+    app.register_blueprint(applicant,     url_prefix='/a')
 
 
      

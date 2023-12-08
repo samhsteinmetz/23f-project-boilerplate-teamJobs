@@ -83,3 +83,52 @@ def delete_applicant_resume (ID, pdfID):
         json_data.append(dict(zip(column_headers, row)))
 
     return jsonify(json_data)
+
+# get the education for a particular applicant
+@applicant.route('/applicant/<ID>/education', methods=['GET'])
+def get_applicant_education(ID):
+    cursor = db.get_db().cursor()
+    cursor.execute('select School, Degree, Major, GraduationYear from education where applicantID = + str(ID)')
+    row_headers = [x[0] for x in cursor.description]
+    json_data = []
+    theData = cursor.fetchall()
+    for row in theData:
+        json_data.append(dict(zip(row_headers, row)))
+    the_response = make_response(jsonify(json_data))
+    the_response.status_code = 200
+    the_response.mimetype = 'application/json'
+    return the_response
+
+# get the experience for a particular applicant
+@applicant.route('/applicant/<ID>/Work-Experience', methods=['GET'])
+def get_applicant_experience(ID):
+    cursor = db.get_db().cursor()
+    cursor.execute('select Company, JobTitle, StartDate, EndDate from experience where applicantID = ' + str(ID))
+    row_headers = [x[0] for x in cursor.description]
+    json_data = []
+    theData = cursor.fetchall()
+    for row in theData:
+        json_data.append(dict(zip(row_headers, row)))
+    the_response = make_response(jsonify(json_data))
+    the_response.status_code = 200
+    the_response.mimetype = 'application/json'
+    return the_response
+
+# get the skills for a particular applicant
+@applicant.route('/applicant/<ID>/skills', methods=['GET'])
+def get_applicant_skills(ID):
+    cursor = db.get_db().cursor()
+    cursor.execute('select SkillName, SkillLevel from skills where applicantID = ' + str(ID))
+    row_headers = [x[0] for x in cursor.description]
+    json_data = []
+    theData = cursor.fetchall()
+    for row in theData:
+        json_data.append(dict(zip(row_headers, row)))
+    the_response = make_response(jsonify(json_data))
+    the_response.status_code = 200
+    the_response.mimetype = 'application/json'
+    return the_response
+
+
+
+
