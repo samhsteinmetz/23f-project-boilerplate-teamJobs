@@ -90,7 +90,7 @@ def get_company_job_detail (CompanyID, jobID):
 @company.route('/company/<CompanyID>/posts', methods=['GET'])
 def get_company_posts (CompanyID):
     cursor = db.get_db().cursor()
-    query = 'SELECT postID, title, description FROM posts WHERE CompanyID = ' + str(CompanyID)
+    query = 'SELECT postID, title, description FROM post WHERE CompanyID = ' + str(CompanyID)
     #current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -121,7 +121,24 @@ def get_company_post_detail (CompanyID, postID):
 
     return jsonify(json_data)
 
-#get the detail of a post from a company
+#update the given comapnyid the companys information
+@company.route('/company/<CompanyID>', methods=['PUT'])
+def update_company_detail (CompanyID):
+    cursor = db.get_db().cursor()
+    query = 'UPDATE company SET name = %s, about = %s WHERE CompanyID = ' + str(CompanyID)
+   # current_app.logger.info(query)
+
+ 
+    cursor.execute(query, (request.json['company_name'], request.json['company_about']))
+    db.get_db().commit()
+    return jsonify({"status":"ok"})
+
+
+
+#update the given comapnyid the companys information
+
+
+
 
 
 
