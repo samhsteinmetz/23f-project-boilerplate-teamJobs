@@ -68,7 +68,7 @@ CREATE TABLE job (
     CompanyID INT,
     Title varchar(255),
     Description TEXT,
-    Salary DECIMAL(10,5),
+    Salary DECIMAL(10,2),
     LocationTownCity varchar(255),
     LocationState varchar(255),
     ApplicationDeadline DATE,
@@ -107,7 +107,7 @@ CREATE TABLE hiring_manager (
     FirstName varchar(255),
     LastName varchar(255),
     Email varchar(255) NOT NULL ,
-    Phone INT,
+    Phone varchar(20),
     PasswordHASH varchar(100) NOT NULL,
     FOREIGN KEY (CompanyID) REFERENCES company(CompanyID)
                             ON DELETE CASCADE

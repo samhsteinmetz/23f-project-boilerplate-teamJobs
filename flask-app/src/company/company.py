@@ -55,7 +55,7 @@ def get_company_detail (CompanyID):
 @company.route('/company/<CompanyID>/jobs', methods=['GET'])
 def get_company_jobs (CompanyID):
     cursor = db.get_db().cursor()
-    query = 'SELECT jobID, title, description FROM jobs WHERE CompanyID = ' + str(CompanyID)
+    query = 'SELECT title, description FROM job WHERE CompanyID = ' + str(CompanyID)
    # current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -122,6 +122,7 @@ def get_company_post_detail (CompanyID, postID):
     return jsonify(json_data)
 
 #get the detail of a post from a company
+
 
 
 
