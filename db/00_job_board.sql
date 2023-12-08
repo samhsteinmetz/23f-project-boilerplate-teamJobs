@@ -50,7 +50,7 @@ CREATE TABLE wants (
 CREATE TABLE pdf_resume (
     pdfID INT AUTO_INCREMENT PRIMARY KEY,
     ApplicantID INT NOT NULL,
-    PdfFilename BLOB,
+    PdfFilename varchar(255),
     FOREIGN KEY (ApplicantID) REFERENCES applicant(ID)
                         ON DELETE CASCADE
                         ON UPDATE CASCADE
