@@ -15,9 +15,12 @@ This repo contains a boilerplate setup for spinning up 3 Docker containers:
 1. Build the images with `docker compose build`
 1. Start the containers with `docker compose up`.  To run in detached mode, run `docker compose up -d`. 
 
-APPSMITH
+## Project Overview
+Our app, "Get a Job" is a job board integrated with a social media posting functionality designed to help applicants and hiring managers find job matches and create resumes through inputted past work and volunteer experiences, as well as skills and education.
 
-- https://github.com/samhsteinmetz/jobboardui
+## Database Design
+The `db/` folder builds our MySQL database in a MySQL 8 container, and this database is then filled with mock data found in the `db/` folder. Below is the diagram for the database:
+<img width="993" alt="image" src="https://github.com/samhsteinmetz/23f-project-boilerplate-teamJobs/assets/120346417/fbabe82e-cf0e-47bc-9208-593d5e96c9af">
 
   
 
