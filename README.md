@@ -22,6 +22,9 @@ Our app, "Get a Job" is a job board integrated with a social media posting funct
 The `db/` folder builds our MySQL database in a MySQL 8 container, and this database is then filled with mock data found in the `db/` folder. Below is the diagram for the database:
 <img width="993" alt="image" src="https://github.com/samhsteinmetz/23f-project-boilerplate-teamJobs/assets/120346417/fbabe82e-cf0e-47bc-9208-593d5e96c9af">
 
+## Video Overview Link
+https://drive.google.com/file/d/1Fh0rKRPyB9g3cKNZ6bhzfg6if6pqUjIc/view?usp=sharing
+
   
 
 
